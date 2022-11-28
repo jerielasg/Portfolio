@@ -279,6 +279,48 @@ a {
   margin: 0 auto;
 }
 
-h1 {
-  background-color: pink;
+header {
+  background-color: grey;
+  padding-bottom: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.about {
+  background-color: blueviolet;
+  padding-bottom: 200px;
+  width: 80%;
+}
+
+.skills {
+  padding-top: 100px;
+  background-color: yellow;
+}
+
+.projects {
+  padding-bottom: 400px;
+  width: 80%;
+  background-color: green;
+}
+
+.contact {
+  width: 65%;
+  padding-bottom: 250px;
+  background-color: red;
+}
+
+.navBar {
+  position: fixed;
+  top: 50px;
+  z-index: 5;
+  left: 30px;
+}
+
+.socialBar {
+  position: fixed;
+  top: 50px;
+  z-index: 5;
+  right: 30px;
 }/*# sourceMappingURL=styles.css.map */
