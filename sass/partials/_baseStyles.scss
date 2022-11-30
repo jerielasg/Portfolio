@@ -1,31 +1,59 @@
-header {
-    background-color: grey;
-     padding-bottom: 200px;
+
+body {
+    background-color: $AccentDarkColor;
 }
 ul {
     list-style: none;
 }
 
 .about {
-    background-color: blueviolet;
-    padding-bottom: 200px;
+    margin:50px auto;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: $backgroundColor;
+    
     width: 80%;
+    box-shadow: 10px 5px 5px $buttonColor;
+    
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
 }
 
 
 .skills {
-    padding-top: 100px;
-    background-color: yellow;
+    margin: 50px auto;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: $backgroundColor;
+    
+    box-shadow: 10px 5px 5px $buttonColor;
+    
 }
 
 .projects {
-    padding-bottom: 400px;
+    margin: 50px auto;
+    border-radius: 5% 5% / 5% 5%;
+    background-color: $backgroundColor;
+    
     width: 80%;
-    background-color: green;
+    box-shadow: 10px 5px 5px $buttonColor;
+    
 }
 
 .contact {
+    margin: 50px auto;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: $backgroundColor;
     width: 65%;
     padding-bottom: 250px;
-    background-color: red;
+    box-shadow: 10px 5px 5px $buttonColor;
+    
+}
+
+button {
+    background-color: $buttonColor;
+    padding:5px 10px;
+    border-style: none;
 }

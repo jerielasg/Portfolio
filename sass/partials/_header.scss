@@ -1,0 +1,15 @@
+header {
+    background-color: $backgroundColor;
+    padding-bottom: 200px;
+    box-shadow: 10px 5px 5px $buttonColor;
+
+    .pageHeader {
+        padding-top: 50px;
+        margin: auto;
+        text-align: center;
+        h1 {
+            
+            box-shadow: 2px 2px 20px gold;
+        }
+    }
+}

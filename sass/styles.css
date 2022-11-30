@@ -279,9 +279,39 @@ a {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cedarville Cursive", cursive;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+i {
+  color: #FFFFFF;
+}
+
 header {
-  background-color: grey;
+  background-color: #292929;
   padding-bottom: 200px;
+  box-shadow: 10px 5px 5px #01B0D3;
+}
+header .pageHeader {
+  padding-top: 50px;
+  margin: auto;
+  text-align: center;
+}
+header .pageHeader h1 {
+  box-shadow: 2px 2px 20px gold;
+}
+
+body {
+  background-color: #242333;
 }
 
 ul {
@@ -289,26 +319,47 @@ ul {
 }
 
 .about {
-  background-color: blueviolet;
-  padding-bottom: 200px;
+  margin: 50px auto;
+  border-radius: 50% 20%/10% 40%;
+  background-color: #292929;
   width: 80%;
+  box-shadow: 10px 5px 5px #01B0D3;
+}
+.about h2 {
+  text-align: center;
+}
+.about p {
+  text-align: center;
 }
 
 .skills {
-  padding-top: 100px;
-  background-color: yellow;
+  margin: 50px auto;
+  border-radius: 50% 20%/10% 40%;
+  background-color: #292929;
+  box-shadow: 10px 5px 5px #01B0D3;
 }
 
 .projects {
-  padding-bottom: 400px;
+  margin: 50px auto;
+  border-radius: 5% 5%/5% 5%;
+  background-color: #292929;
   width: 80%;
-  background-color: green;
+  box-shadow: 10px 5px 5px #01B0D3;
 }
 
 .contact {
+  margin: 50px auto;
+  border-radius: 50% 20%/10% 40%;
+  background-color: #292929;
   width: 65%;
   padding-bottom: 250px;
-  background-color: red;
+  box-shadow: 10px 5px 5px #01B0D3;
+}
+
+button {
+  background-color: #01B0D3;
+  padding: 5px 10px;
+  border-style: none;
 }
 
 .navBar {
@@ -323,4 +374,10 @@ ul {
   top: 50px;
   z-index: 5;
   right: 30px;
+}
+
+.scrollUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }/*# sourceMappingURL=styles.css.map */
