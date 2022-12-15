@@ -53,10 +53,10 @@
             </ul>
         </div>
         <div class="scrollUp" id="scrollUP">
-            <i>UP</i>
+            <a href="#headerTop"><i>TOP</i></a>
         </div>
     </nav>
-    <header>
+    <header id="headerTop">
         <div class="pageHeader wrapper">
             <h1>Jeriel</h1>
             <p>Calgary based Web Developer</p>
@@ -66,8 +66,16 @@
     <section>
         <div class="wrapper about" id="about">
             <h2>who am I?</h2>
-            <p>
-                Jeriel is a web developer with a knack for data analytics. He works as a workforce analyst and loves to break down walls with data. He has dived into several industries from retail, food and beverage, insurance, e-commerce, education just to name a few. Just like in golf he tends to determine all the factors before taking his next shot.</p>
+            <div class="aboutContainer">
+                <div class="aboutText">
+                    <p>
+                    Jeriel is a web developer with a knack for data analytics. He works as a workforce analyst and loves to break down walls with data. He has dived into several industries from retail, food and beverage, insurance, e-commerce, education just to name a few. Just like in golf he tends to determine all the factors before taking his next shot.
+                    </p>
+                </div>
+                <div class="aboutImg">
+                    <img src="./assets/headshot.JPG">
+                </div>
+            </div>
 
         </div>
         <div class="wrapper skills" id="skills">
@@ -102,17 +110,19 @@
             <h2>I you haven't had enough let me know!!!</h2>
             <div class="contactForm">
                 <form action="mailto:jerielasg@gmail.com">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" id="name" placeholder="Name">
+                    <div class="userInfo">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" placeholder="Name">
 
-                    <label for="email" class="sr-only">Email address</label>
-                    <input type="email" id="email" placeholder="Email address">
-
-                    <label for="message" class="sr-only">Name</label>
-                    <input type="message" id="message" placeholder="Message" rows="4" cols="12">
-
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" placeholder="Email address">
+                    </div>
+                    <div class="userInput">
+                        <label for="message" class="sr-only">Name</label>
+                        <input type="message" id="message" placeholder="Message" rows="4" cols="12">
+                        </div>
                     <br>
-                    <button class="button contactButton">Submit</button>
+                    <input type="submit" value="SUBMIT">
 
                 </form>
             </div>
@@ -120,7 +130,7 @@
 
     </section>
     <footer>
-        <p>Designed and Built by Jeriel Garcia</p>
+        <p>Designed and Built by Jeriel Garcia ©2022</p>
     </footer>
     <script src="app.js"></script>
 

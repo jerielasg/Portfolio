@@ -5,6 +5,9 @@ h4,
 h5 {
     font-family: $primaryFont;
     color: $mainTextColor;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
 }
 p{
     color: $mainTextColor;
@@ -14,11 +17,13 @@ p{
 
 i {
     color: $secondaryColor;
+    
 }
 
-.navBar {
+.navBar, .socialBar {
     i {
-        font-size: 20px;
+        font-size: 30px;
+        color: $tertiaryColor;
     }
 }
 

@@ -1,27 +1,27 @@
 .navBar {
     position: fixed;
-    top: 50px;
+    top: 100px;
     z-index: 5;
     left:30px;
     .leftMenu {
         display: flex;
         flex-direction: column;
         li {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             text-align: center;
         }
     }
 }
 .socialBar {
     position: fixed;
-    top: 50px;
+    top: 100px;
     z-index: 5;
     right:30px;
     .rightMenu{
         display: flex;
         flex-direction: column;
         a{
-            padding-bottom: 10px;
+            padding-bottom: 20px;
         }
     }
 }
