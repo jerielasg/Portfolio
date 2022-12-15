@@ -284,17 +284,18 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Cedarville Cursive", cursive;
-  color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #222525;
 }
 
 p {
-  color: white;
+  color: #222525;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 i {
-  color: #FFFFFF;
+  color: #f45d48;
 }
 
 .navBar i {
@@ -306,21 +307,19 @@ i {
 }
 
 header {
-  background-color: #292929;
+  background-color: #f8f5f2;
   padding-bottom: 200px;
-  box-shadow: 10px 5px 5px #01B0D3;
+  box-shadow: 10px 5px 5px #078080;
 }
 header .pageHeader {
   padding-top: 50px;
   margin: auto;
   text-align: center;
-}
-header .pageHeader h1 {
-  box-shadow: 2px 2px 20px gold;
+  text-transform: uppercase;
 }
 
 body {
-  background-color: #242333;
+  background-color: white;
 }
 
 ul {
@@ -329,7 +328,7 @@ ul {
 
 .about {
   margin: 50px auto;
-  background-color: #292929;
+  background-color: #feefe8;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -343,7 +342,7 @@ ul {
 
 .skills {
   margin: 50px auto;
-  background-color: #292929;
+  background-color: #feefe8;
 }
 .skills h2 {
   text-align: center;
@@ -360,19 +359,19 @@ ul {
 
 .projects {
   margin: 50px auto;
-  background-color: #292929;
+  background-color: #feefe8;
   width: 80%;
 }
 
 .contact {
   margin: 50px auto;
-  background-color: #292929;
+  background-color: #feefe8;
   width: 65%;
   padding-bottom: 250px;
 }
 
 button {
-  background-color: #01B0D3;
+  background-color: #078080;
   padding: 5px 10px;
   border-style: none;
 }
