@@ -311,15 +311,33 @@ i {
 }
 
 header {
-  background-color: #f8f5f2;
   padding-bottom: 200px;
   box-shadow: 10px 5px 5px #078080;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .pageHeader {
   padding-top: 50px;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
+}
+
+header::before {
+  content: "";
+  background-image: url("../assets/calgary.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
 }
 
 body {
@@ -341,7 +359,8 @@ ul {
 .about .aboutContainer {
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
 }
 .about .aboutContainer .aboutText {
   align-items: center;
@@ -350,7 +369,8 @@ ul {
   align-items: center;
 }
 .about .aboutContainer .aboutImg img {
-  width: 50%;
+  width: 40%;
+  height: 65%;
 }
 
 .skills {
@@ -378,6 +398,15 @@ ul {
   padding-bottom: 100px;
   width: 80%;
   box-shadow: 10px 5px 5px #a91d0a;
+  text-align: center;
+}
+.projects h4, .projects p {
+  padding-bottom: 20px;
+}
+.projects img {
+  width: 75%;
+  height: 60%;
+  padding-bottom: 25px;
 }
 
 .contact {
