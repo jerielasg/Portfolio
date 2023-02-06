@@ -16,13 +16,15 @@ ul {
     padding-top: 100px;
     padding-bottom: 100px;
     box-shadow: 10px 5px 5px $borderColor;
-  
+    h2 {
+            margin-bottom: 50px;
+        }
         
     .aboutContainer {
         padding-top: 20px;
         display: flex;
         text-align: center;
-        
+      
         .aboutText {
             
             margin-left: 50px;
@@ -31,7 +33,7 @@ ul {
 
             p {
                 position: relative;
-                top: 20%;
+                
                 
             }
         }        
