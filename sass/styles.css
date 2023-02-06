@@ -425,8 +425,12 @@ ul {
   padding-bottom: 50px;
 }
 .skills .skillsLogo i {
-  padding-right: 40px;
+  padding-right: 60px;
   display: inline-block;
+  transition: 1s;
+}
+.skills .skillsLogo i:hover {
+  transform: scale(1.5);
 }
 
 .projects {
@@ -449,6 +453,8 @@ ul {
 }
 .projects .projectIndi h4, .projects .projectIndi p {
   padding-bottom: 20px;
+  margin: 0 auto;
+  width: 75%;
 }
 .projects .projectIndi img {
   width: 75%;
@@ -528,8 +534,14 @@ button {
   flex-direction: column;
 }
 .navBar .leftMenu li {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: center;
+}
+.navBar .leftMenu li a p {
+  opacity: 0;
+}
+.navBar .leftMenu li a p:hover {
+  opacity: 1;
 }
 
 .socialBar {
@@ -543,7 +555,7 @@ button {
   flex-direction: column;
 }
 .socialBar .rightMenu a {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .scrollUp {
