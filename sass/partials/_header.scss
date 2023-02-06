@@ -1,8 +1,8 @@
 header {
     padding-bottom: 200px;
-    box-shadow: 10px 5px 5px $buttonColor;
+    box-shadow: 10px 5px 5px $borderColor;
     position: relative;
-    
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -32,3 +32,22 @@ header {
     opacity: .15;
 
  }
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-1000%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
+header {
+    h1 {
+        animation: 3s ease-out 0s 1 slideTop;
+    }
+    p {
+        animation: 3s ease 0s 1 slideTop;
+    }
+}

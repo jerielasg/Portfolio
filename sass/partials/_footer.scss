@@ -1,7 +1,10 @@
 footer {
     width: 50%;
     margin:auto;
+
     p {
         text-align: center;
+        color: $mainTextColor;
+        font-family: $primaryFont;
     }
 }
