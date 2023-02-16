@@ -311,8 +311,18 @@ i {
   color: #4681f4;
 }
 
+.scrollUp {
+  font-size: 30px;
+}
+
 .skills .skillsLogo i {
   font-size: 75px;
+}
+
+.buttonHolder button {
+  color: #d8d8d8;
+  font: #d8d8d8;
+  letter-spacing: 2px;
 }
 
 header {
@@ -461,6 +471,10 @@ ul {
   height: 60%;
   padding-bottom: 25px;
 }
+.projects .projectIndi .buttonHolder button {
+  padding: 15px 20px 15px;
+  box-shadow: 3px 2px 2px #25274D;
+}
 
 .contact {
   margin: 50px auto;
@@ -475,6 +489,10 @@ button {
   background-color: #29648A;
   padding: 5px 10px;
   border-style: none;
+}
+
+.socialBarBottom {
+  display: none;
 }
 
 .contactForm {
@@ -608,6 +626,66 @@ button {
           animation: 2s ease-out 0s 1 slideSocial;
 }
 
+@media (max-width: 900px) {
+  .navBar {
+    top: 25px;
+  }
+  .navBar .leftMenu {
+    flex-direction: row;
+  }
+  .navBar .leftMenu a {
+    padding-right: 15px;
+  }
+  .socialBar {
+    top: 25px;
+    display: none;
+  }
+  .socialBar .rightMenu {
+    flex-direction: row;
+  }
+  .socialBar .rightMenu a {
+    padding-left: 15px;
+  }
+  .about {
+    width: 100%;
+  }
+  .about .aboutContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .aboutContainer img {
+    padding-top: 20px;
+  }
+  .skills .skillsLogo {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skillsLogo i {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+  .projects {
+    width: 100%;
+  }
+  .projects .projectIndi {
+    width: 97%;
+  }
+  .projects .projectIndi .buttonHolder button {
+    padding: 10px 5px 10px;
+  }
+  .socialBarBottom {
+    display: flex;
+    padding-top: 20px;
+  }
+  .socialBarBottom .socialBottom {
+    margin: 0 auto;
+  }
+  .socialBarBottom .socialBottom i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+}
 footer {
   width: 50%;
   margin: auto;

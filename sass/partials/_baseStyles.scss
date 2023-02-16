@@ -111,6 +111,11 @@ ul {
             height: 60%;
             padding-bottom: 25px;
         }
+        .buttonHolder button {
+            
+            padding: 15px 20px 15px;
+            box-shadow: 3px 2px 2px $backgroundColor;
+        }
     }
     
 }
@@ -130,4 +135,7 @@ button {
     background-color: $buttonColor;
     padding:5px 10px;
     border-style: none;
+}
+.socialBarBottom {
+    display: none;
 }

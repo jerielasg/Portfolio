@@ -33,6 +33,9 @@ i {
     }
 }
 
+.scrollUp {
+    font-size: 30px;
+}
 
 
 .skills {
@@ -41,4 +44,10 @@ i {
             font-size: 75px;
         }
     }
+}
+
+.buttonHolder button {
+    color: $mainTextColor;
+    font: $mainTextColor;
+    letter-spacing: 2px;
 }

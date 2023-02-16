@@ -1,0 +1,69 @@
+@media (max-width: 900px) {
+    .navBar {
+        top: 25px;
+        .leftMenu {
+            flex-direction: row;
+            a{
+                padding-right: 15px;
+            }
+        }
+    }
+
+    .socialBar {
+        top: 25px;
+        display: none;
+        .rightMenu {
+            flex-direction: row;
+            a{
+                padding-left: 15px;
+            }
+        }
+    }
+    
+    .about {
+        width: 100%;
+        .aboutContainer {
+            display: flex;
+            flex-direction: column;
+            img{
+                padding-top: 20px;
+            }
+        }
+    }
+
+    .skills {
+        
+        .skillsLogo{
+            display: flex;
+            flex-direction: column;
+            i {
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+          
+        }
+    }
+    .projects {
+        width: 100%;
+        .projectIndi {
+            width: 97%;
+            .buttonHolder button {
+                padding: 10px 5px 10px;
+        
+            }
+        }
+    }
+    .socialBarBottom{
+        display: flex;
+        padding-top: 20px;
+        .socialBottom{
+            margin: 0 auto;
+            i{
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 30px;
+            }
+            
+        }
+    }
+}
