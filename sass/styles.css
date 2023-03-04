@@ -555,11 +555,18 @@ button {
   padding-bottom: 40px;
   text-align: center;
 }
-.navBar .leftMenu li a p {
-  opacity: 0;
+.navBar .leftMenu li a {
+  padding-bottom: 40px;
 }
-.navBar .leftMenu li a p:hover {
-  opacity: 1;
+.navBar .leftMenu li span {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  visibility: hidden;
+}
+.navBar .leftMenu li li:hover span {
+  visibility: visible;
 }
 
 .socialBar {
@@ -572,8 +579,22 @@ button {
   display: flex;
   flex-direction: column;
 }
-.socialBar .rightMenu a {
+.socialBar .rightMenu li {
   padding-bottom: 40px;
+  text-align: center;
+}
+.socialBar .rightMenu li a {
+  padding-bottom: 40px;
+}
+.socialBar .rightMenu li span {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  visibility: hidden;
+}
+.socialBar .rightMenu li:hover span {
+  visibility: visible;
 }
 
 .scrollUp {
@@ -621,7 +642,7 @@ button {
     transform: translateX(0);
   }
 }
-.socialBar a {
+.socialBar li {
   -webkit-animation: 2s ease-out 0s 1 slideSocial;
           animation: 2s ease-out 0s 1 slideSocial;
 }
@@ -689,6 +710,8 @@ button {
 footer {
   width: 50%;
   margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 footer p {
   text-align: center;

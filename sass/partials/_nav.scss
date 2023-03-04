@@ -10,11 +10,18 @@
             padding-bottom: 40px;
             text-align: center;
             a{
-                p{
-                    opacity: 0;
-                }
-                p:hover{
-                    opacity: 1;
+                padding-bottom: 40px;
+            }
+            span {
+                color: white;
+                letter-spacing: 1px;
+                font-size: 1.5rem;
+                font-family: $primaryFont;
+                visibility: hidden;
+            }
+            li:hover {
+                span {
+                    visibility: visible;
                 }
             }
         }
@@ -28,9 +35,25 @@
     .rightMenu{
         display: flex;
         flex-direction: column;
-        a{
+        li{
             padding-bottom: 40px;
-            
+            text-align: center;
+            a{
+                padding-bottom: 40px;
+                
+            }
+            span {
+                color: white;
+                letter-spacing: 1px;
+                font-size: 1.5rem;
+                font-family: $primaryFont;
+                visibility: hidden;
+            }
+        }
+        li:hover {
+            span {
+                visibility: visible;
+            }
         }
     }
 }
@@ -73,7 +96,7 @@
 } 
 
 .socialBar {
-    a {
+    li {
         animation: 2s ease-out 0s 1 slideSocial;
     }
 
