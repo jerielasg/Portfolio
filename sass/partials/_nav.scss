@@ -35,9 +35,13 @@
     .rightMenu{
         display: flex;
         flex-direction: column;
-        li{
+        justify-content: end;
+        
+        li{ 
+            align-items: right;
             padding-bottom: 40px;
-            text-align: center;
+            
+            
             a{
                 padding-bottom: 40px;
                 

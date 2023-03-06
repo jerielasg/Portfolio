@@ -578,10 +578,11 @@ button {
 .socialBar .rightMenu {
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
 .socialBar .rightMenu li {
+  align-items: right;
   padding-bottom: 40px;
-  text-align: center;
 }
 .socialBar .rightMenu li a {
   padding-bottom: 40px;
